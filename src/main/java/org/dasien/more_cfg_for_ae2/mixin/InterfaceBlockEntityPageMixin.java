@@ -33,7 +33,7 @@ public abstract class InterfaceBlockEntityPageMixin extends AENetworkBlockEntity
         return InterfaceConfigHelper.clampPage(this, this.moreCfgForAe2$page);
     }
 
-    @Inject(method = "saveAdditional", at = @At("RETURN"))
+    @Inject(method = "saveAdditional", at = @At("RETURN"), remap = true)
     private void moreCfgForAe2$savePage(CompoundTag tag, CallbackInfo ci) {
         tag.putInt("more_cfg_for_ae2_page", this.moreCfgForAe2$page);
     }
