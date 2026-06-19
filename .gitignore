@@ -3,6 +3,7 @@ build/
 run/
 run-data/
 .idea/
+.vscode/
 *.iml
 *.ipr
 *.iws
