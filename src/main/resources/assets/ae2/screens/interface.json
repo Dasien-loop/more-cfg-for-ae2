@@ -1,0 +1,1021 @@
+{
+    "$schema":  "schema.json",
+    "includes":  [
+                     "common/common.json",
+                     "common/player_inventory.json"
+                 ],
+    "background":  {
+                       "texture":  "guis/interface.png",
+                       "srcRect":  [
+                                       0,
+                                       0,
+                                       176,
+                                       205
+                                   ]
+                   },
+    "slots":  {
+                  "CONFIG":  {
+                                 "left":  8,
+                                 "top":  53,
+                                 "grid":  "HORIZONTAL"
+                             },
+                  "STORAGE":  {
+                                  "left":  8,
+                                  "top":  71,
+                                  "grid":  "HORIZONTAL"
+                              },
+                  "MORE_CFG_FOR_AE2_CONFIG_1":  {
+                                                    "left":  26,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_1":  {
+                                                     "left":  26,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_2":  {
+                                                    "left":  44,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_2":  {
+                                                     "left":  44,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_3":  {
+                                                    "left":  62,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_3":  {
+                                                     "left":  62,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_4":  {
+                                                    "left":  80,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_4":  {
+                                                     "left":  80,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_5":  {
+                                                    "left":  98,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_5":  {
+                                                     "left":  98,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_6":  {
+                                                    "left":  116,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_6":  {
+                                                     "left":  116,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_7":  {
+                                                    "left":  134,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_7":  {
+                                                     "left":  134,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_8":  {
+                                                    "left":  152,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_8":  {
+                                                     "left":  152,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_9":  {
+                                                    "left":  8,
+                                                    "top":  53,
+                                                    "grid":  "HORIZONTAL"
+                                                },
+                  "MORE_CFG_FOR_AE2_STORAGE_9":  {
+                                                     "left":  8,
+                                                     "top":  71,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_CONFIG_10":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_10":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_11":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_11":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_12":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_12":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_13":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_13":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_14":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_14":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_15":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_15":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_16":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_16":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_17":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_17":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_18":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_18":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_19":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_19":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_20":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_20":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_21":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_21":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_22":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_22":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_23":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_23":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_24":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_24":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_25":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_25":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_26":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_26":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_27":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_27":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_28":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_28":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_29":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_29":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_30":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_30":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_31":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_31":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_32":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_32":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_33":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_33":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_34":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_34":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_35":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_35":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_36":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_36":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_37":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_37":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_38":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_38":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_39":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_39":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_40":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_40":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_41":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_41":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_42":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_42":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_43":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_43":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_44":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_44":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_45":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_45":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_46":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_46":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_47":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_47":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_48":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_48":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_49":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_49":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_50":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_50":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_51":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_51":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_52":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_52":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_53":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_53":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_54":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_54":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_55":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_55":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_56":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_56":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_57":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_57":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_58":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_58":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_59":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_59":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_60":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_60":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_61":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_61":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_62":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_62":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_63":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_63":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_64":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_64":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_65":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_65":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_66":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_66":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_67":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_67":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_68":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_68":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_69":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_69":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_70":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_70":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_71":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_71":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_72":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_72":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_73":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_73":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_74":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_74":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_75":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_75":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_76":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_76":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_77":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_77":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_78":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_78":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_79":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_79":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_80":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_80":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_81":  {
+                                                     "left":  8,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_81":  {
+                                                      "left":  8,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_82":  {
+                                                     "left":  26,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_82":  {
+                                                      "left":  26,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_83":  {
+                                                     "left":  44,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_83":  {
+                                                      "left":  44,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_84":  {
+                                                     "left":  62,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_84":  {
+                                                      "left":  62,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_85":  {
+                                                     "left":  80,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_85":  {
+                                                      "left":  80,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_86":  {
+                                                     "left":  98,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_86":  {
+                                                      "left":  98,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_87":  {
+                                                     "left":  116,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_87":  {
+                                                      "left":  116,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_88":  {
+                                                     "left":  134,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_88":  {
+                                                      "left":  134,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  },
+                  "MORE_CFG_FOR_AE2_CONFIG_89":  {
+                                                     "left":  152,
+                                                     "top":  53,
+                                                     "grid":  "HORIZONTAL"
+                                                 },
+                  "MORE_CFG_FOR_AE2_STORAGE_89":  {
+                                                      "left":  152,
+                                                      "top":  71,
+                                                      "grid":  "HORIZONTAL"
+                                                  }
+              },
+    "text":  {
+                 "dialog_title":  {
+                                      "text":  {
+                                                   "translate":  "gui.ae2.Interface"
+                                               },
+                                      "position":  {
+                                                       "left":  8,
+                                                       "top":  6
+                                                   }
+                                  },
+                 "interface_config":  {
+                                          "text":  {
+                                                       "translate":  "gui.ae2.Config"
+                                                   },
+                                          "position":  {
+                                                           "left":  8,
+                                                           "top":  24
+                                                       }
+                                      },
+                 "interface_stored_items":  {
+                                                "text":  {
+                                                             "translate":  "gui.ae2.StoredItems"
+                                                         },
+                                                "position":  {
+                                                                 "left":  8,
+                                                                 "top":  91
+                                                             }
+                                            }
+             },
+    "widgets":  {
+                    "openPriority":  {
+                                         "left":  154,
+                                         "top":  0,
+                                         "width":  16,
+                                         "height":  16
+                                     },
+                    "prePage":  {
+                                    "left":  118,
+                                    "top":  17,
+                                    "width":  16,
+                                    "height":  16
+                                },
+                    "nextPage":  {
+                                     "left":  136,
+                                     "top":  17,
+                                     "width":  16,
+                                     "height":  16
+                                 },
+                    "amtButton1":  {
+                                       "left":  8,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton2":  {
+                                       "left":  26,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton3":  {
+                                       "left":  44,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton4":  {
+                                       "left":  62,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton5":  {
+                                       "left":  80,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton6":  {
+                                       "left":  98,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton7":  {
+                                       "left":  116,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton8":  {
+                                       "left":  134,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   },
+                    "amtButton9":  {
+                                       "left":  152,
+                                       "top":  35,
+                                       "width":  16,
+                                       "height":  16
+                                   }
+                }
+}

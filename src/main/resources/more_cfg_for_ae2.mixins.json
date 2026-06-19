@@ -1,0 +1,42 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.dasien.more_cfg_for_ae2.mixin",
+  "plugin": "org.dasien.more_cfg_for_ae2.compat.MoreCfgMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "more_cfg_for_ae2.refmap.json",
+  "mixins": [
+    "ConfigInventoryMixin",
+    "ContainerExInterfaceMixin",
+    "CUpdatePageMixin",
+    "InterfaceBlockEntityPageMixin",
+    "InfinityCellMixin",
+    "InterfaceLogicMixin",
+    "InterfaceMenuMixin",
+    "InterfacePartPageMixin",
+    "MERequesterRequestUpdatePacketMixin",
+    "MERequesterRequestMixin",
+    "PartOversizeConfigInventoryMixin",
+    "PartOversizeInterfaceMixin",
+    "SetStockAmountMenuMixin",
+    "SlotAccessor",
+    "TileOversizeConfigInventoryMixin",
+    "TileOversizeInterfaceMixin"
+  ],
+  "client": [
+    "AEBaseScreenAccessor",
+    "ArrayConfigScreenMixin",
+    "GuiExInterfaceMixin",
+    "InterfaceScreenMixin",
+    "MERequesterNumberFieldMixin",
+    "MERequesterScreenWidgetInitMixin",
+    "SetStockAmountScreenMixin",
+    "VerticalButtonBarMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
