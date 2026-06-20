@@ -2,7 +2,14 @@ package org.dasien.more_cfg_for_ae2.compat;
 
 public enum InfinityCellRegistryTarget {
     ITEM("item"),
-    FLUID("fluid");
+    FLUID("fluid"),
+    FE("fe"),
+    MANA("mana"),
+    GAS("gas"),
+    INFUSE_TYPE("infuse"),
+    PIGMENT("pigment"),
+    SLURRY("slurry"),
+    SOURCE("source");
 
     public static final String CONFIG_KEY = "infinityCells";
 

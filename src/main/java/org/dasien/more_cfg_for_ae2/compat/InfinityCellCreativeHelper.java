@@ -2,6 +2,7 @@ package org.dasien.more_cfg_for_ae2.compat;
 
 import appeng.api.stacks.AEFluidKey;
 import appeng.api.stacks.AEItemKey;
+import appeng.api.stacks.AEKey;
 import com.glodblock.github.extendedae.common.EPPItemAndBlock;
 import com.glodblock.github.extendedae.common.items.InfinityCell;
 import com.mojang.logging.LogUtils;
@@ -75,7 +76,12 @@ public final class InfinityCellCreativeHelper {
                     invalidEntries.add(entry);
                 }
             } else {
-                invalidEntries.add(entry);
+                Optional<AEKey> key = resolveCompatKey(target, id);
+                if (key.isPresent()) {
+                    cells.add(infinityCell.getRecordCell(key.get()));
+                } else {
+                    invalidEntries.add(entry);
+                }
             }
         }
 
@@ -114,6 +120,22 @@ public final class InfinityCellCreativeHelper {
 
         Fluid fluid = ForgeRegistries.FLUIDS.getValue(location);
         return fluid != null && fluid != Fluids.EMPTY ? Optional.of(fluid) : Optional.empty();
+    }
+
+    private static Optional<AEKey> resolveCompatKey(InfinityCellRegistryTarget target, String id) {
+        if (target == null) {
+            return Optional.empty();
+        }
+        return switch (target) {
+            case FE -> LoadedMods.isAppliedFluxLoaded() ? AppFluxInfinityCellCompat.resolve(id) : Optional.empty();
+            case MANA -> LoadedMods.isAppliedBotanicsLoaded() ? AppliedBotanicsInfinityCellCompat.resolve(id)
+                    : Optional.empty();
+            case GAS, INFUSE_TYPE, PIGMENT, SLURRY -> LoadedMods.isAppliedMekanisticsLoaded()
+                    ? AppliedMekanisticsInfinityCellCompat.resolve(target, id) : Optional.empty();
+            case SOURCE -> LoadedMods.isArsEnergistiqueLoaded() ? ArsEnergistiqueInfinityCellCompat.resolve(id)
+                    : Optional.empty();
+            default -> Optional.empty();
+        };
     }
 
     private static void logInvalidEntries(List<String> invalidEntries) {

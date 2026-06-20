@@ -46,7 +46,7 @@ public abstract class ArrayConfigScreenMixin {
 
             int arrayIndex = indexFromLabel(entryWidget.getComponentName().getString());
             if (arrayIndex < 0) {
-                arrayIndex = visibleIndex;
+                arrayIndex = ((AbstractConfigScreenAccessor) this).moreCfgForAe2$getIndex() + visibleIndex;
             }
             if (arrayIndex < 0 || arrayIndex >= ids.length) {
                 continue;

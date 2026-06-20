@@ -336,7 +336,7 @@ public class Config {
 
         @Configurable
         @Configurable.Synchronized
-        @Configurable.Comment("Registry entries to expose as Ex Pattern Provider infinity cells. Use item:<id> or fluid:<id>.")
+        @Configurable.Comment("Registry entries to expose as Ex Pattern Provider infinity cells. Supported prefixes: item, fluid, fe, mana, gas, infuse, pigment, slurry, source.")
         public String[] infinityCells = new String[0];
 
         @Configurable

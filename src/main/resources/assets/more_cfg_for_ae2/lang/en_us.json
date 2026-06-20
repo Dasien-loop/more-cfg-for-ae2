@@ -26,6 +26,17 @@
   "gui.more_cfg_for_ae2.infinity_cell.select": "Select registry entry",
   "gui.more_cfg_for_ae2.infinity_cell.type.item": "Items",
   "gui.more_cfg_for_ae2.infinity_cell.type.fluid": "Fluids",
+  "gui.more_cfg_for_ae2.infinity_cell.type.fe": "FE",
+  "gui.more_cfg_for_ae2.infinity_cell.type.mana": "Mana",
+  "gui.more_cfg_for_ae2.infinity_cell.type.gas": "Gas",
+  "gui.more_cfg_for_ae2.infinity_cell.type.infuse": "Infusion",
+  "gui.more_cfg_for_ae2.infinity_cell.type.pigment": "Pigment",
+  "gui.more_cfg_for_ae2.infinity_cell.type.slurry": "Slurry",
+  "gui.more_cfg_for_ae2.infinity_cell.type.source": "Source",
+  "gui.more_cfg_for_ae2.infinity_cell.group.item": "Items",
+  "gui.more_cfg_for_ae2.infinity_cell.group.fluid": "Fluids",
+  "gui.more_cfg_for_ae2.infinity_cell.group.chemical": "Chemicals",
+  "gui.more_cfg_for_ae2.infinity_cell.group.other": "Other",
   "gui.more_cfg_for_ae2.interface.next": "Next page",
   "gui.more_cfg_for_ae2.interface.previous": "Previous page"
 }
