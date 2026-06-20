@@ -12,7 +12,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-@dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID)
+@dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID, group = More_cfg_for_ae2.MODID)
 public class Config {
     public static final int ME_INTERFACE_DEFAULT_SLOT_LIMIT = 64;
     public static final int ME_INTERFACE_MAX_SLOT_LIMIT = 2_000_000;
@@ -273,7 +273,7 @@ public class Config {
         void setMeRequesterRequestBatchLimit(int limit);
     }
 
-    @dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID)
+    @dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID, group = More_cfg_for_ae2.MODID)
     public static class WithMERequester extends Config implements MERequesterConfig {
         @Configurable
         @Configurable.Synchronized
@@ -308,7 +308,7 @@ public class Config {
         }
     }
 
-    @dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID)
+    @dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID, group = More_cfg_for_ae2.MODID)
     public static class WithExPatternProvider extends Config {
         @Configurable
         @Configurable.Synchronized
@@ -345,7 +345,7 @@ public class Config {
         public boolean infinityCellUseLongMaxValue = false;
     }
 
-    @dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID)
+    @dev.toma.configuration.config.Config(id = More_cfg_for_ae2.MODID, filename = More_cfg_for_ae2.MODID, group = More_cfg_for_ae2.MODID)
     public static final class WithExPatternProviderAndMERequester extends WithExPatternProvider
             implements MERequesterConfig {
         @Configurable

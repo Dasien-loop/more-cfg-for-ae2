@@ -23,7 +23,7 @@ public abstract class ArrayConfigScreenMixin {
     @Final
     public AbstractArrayValue<?> array;
 
-    @Inject(method = "init", at = @At("RETURN"))
+    @Inject(method = "init", at = @At("RETURN"), remap = true)
     private void moreCfgForAe2$addRegistryPickers(CallbackInfo ci) {
         if (!InfinityCellRegistryTarget.CONFIG_KEY.equals(this.array.getId())) {
             return;

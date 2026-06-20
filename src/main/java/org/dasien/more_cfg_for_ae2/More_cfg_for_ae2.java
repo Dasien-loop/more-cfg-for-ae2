@@ -1,12 +1,16 @@
 package org.dasien.more_cfg_for_ae2;
 
 import com.mojang.logging.LogUtils;
+import dev.toma.configuration.client.ConfigurationClient;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -58,6 +62,12 @@ public class More_cfg_for_ae2 {
 
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ModList.get().getModContainerById(MODID).ifPresent(container -> container.registerExtensionPoint(
+                    ConfigScreenHandler.ConfigScreenFactory.class,
+                    () -> new ConfigScreenHandler.ConfigScreenFactory((minecraft, parent) -> {
+                        Screen screen = ConfigurationClient.getConfigScreen(MODID, parent);
+                        return screen != null ? screen : parent;
+                    })));
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
