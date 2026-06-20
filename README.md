@@ -72,25 +72,6 @@ meRequesterRequestBatchLimit: 2147483647
 
 这些配置是上限，不是默认填充值。服务端会强制钳制请求数量，避免客户端伪造超过配置的数值。
 
-## 构建
-
-```powershell
-.\gradlew.bat build
-```
-
-开发期快速检查：
-
-```powershell
-.\gradlew.bat compileJava
-.\gradlew.bat processResources
-```
-
-构建产物会输出到：
-
-```text
-build/libs/
-```
-
 ## 许可
 
 本仓库包含的 `LICENSE` 当前为 MIT License。模组依赖项遵循各自项目的许可。
